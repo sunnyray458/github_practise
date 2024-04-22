@@ -1,0 +1,10 @@
+name: github_workflow_demo
+on: [workflow_dispatch]
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step-1
+        run: echo "Hello Suchet.!"
+      - name : step-2
+        run : echo "BYE BYE.!"
